@@ -1,7 +1,7 @@
 // Added a LoopActivities method to Activity class to remove duplicate code from each activity class.
 // Added a member variable to Activity class to store the log of the activities.
-// Added methods to load, save, and display a Json log to the Activity class with corresponding menu option in Program class.
-// Added a ParseJson class to manage the Json log.
+// Added methods to load, save, and display a JSON log to the Activity class with corresponding menu option in Program class.
+// Added a ParseJson class to manage the JSON log data.
 // Prompts and questions will not repeat in the same session.
 // Added input validation.
 
