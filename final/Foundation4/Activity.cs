@@ -1,4 +1,4 @@
-public class Activity 
+public abstract class Activity 
 {
     protected DateOnly _date;
     protected int _duration;
@@ -9,19 +9,13 @@ public class Activity
         _duration = duration;
     }
 
-    protected virtual double GetDistance()
-    {
-        return 0;
-    }
+    protected abstract double GetDistance();
 
-    protected virtual double GetSpeed()
-    {
-        return 0;
-    }
+    protected abstract double GetSpeed();
 
     protected virtual double GetPace()
     {
-        return 0;
+        return _duration / GetDistance();
     }
 
     public string GetSummary()

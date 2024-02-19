@@ -15,9 +15,4 @@ public class CyclingActivity : Activity
     {
         return _speed;
     }
-
-    protected override double GetPace()
-    {
-        return _duration / GetDistance();
-    }
 }

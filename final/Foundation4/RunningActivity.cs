@@ -16,9 +16,4 @@ public class RunningActivity : Activity
     {
         return _distance / _duration * 60;
     }
-
-    protected override double GetPace()
-    {
-        return _duration / _distance;
-    }
 }

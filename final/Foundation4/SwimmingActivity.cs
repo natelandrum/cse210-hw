@@ -16,9 +16,4 @@ public class SwimmingActivity : Activity
     {
         return GetDistance() / _duration * 60;
     }
-
-    protected override double GetPace()
-    {
-        return _duration / GetDistance();
-    }
 }
